@@ -1,6 +1,6 @@
 # Discli
 
-TODO: Write a gem description
+CLI for http://www.discogs.com
 
 ## Installation
 
