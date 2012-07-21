@@ -1,5 +1,2 @@
-require "discli/version"
-
-module Discli
-  # Your code goes here...
-end
+require 'discli/version'
+require 'discli/client'
