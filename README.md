@@ -1,4 +1,4 @@
-# Discli
+# Discli [![build status](https://secure.travis-ci.org/huntca/discli.png)](http://travis-ci.org/huntca/discli)
 
 CLI for http://www.discogs.com
 
