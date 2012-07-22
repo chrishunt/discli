@@ -12,9 +12,12 @@ describe Discli::Client do
     title = 'kind of blue'
     year  = '2010'
 
-    results = client.search(:year => year, :release_title => title)
+    results = client.search(
+      :year          => year,
+      :release_title => title)
 
     results.count.should > 0
+
     results.map { |r| r['title'].downcase.should include(title) }
     results.map { |r| r['year'] }.uniq.should == [year]
   end

@@ -16,7 +16,7 @@ describe Discli::Client do
       client.search(artist)
     end
 
-    it 'returns the results' do
+    it 'returns the search results' do
       http_client.should_receive(:get).with(path, params).
         and_return(double(:response, :body => <<-JSON
           { "results": [
@@ -34,7 +34,7 @@ describe Discli::Client do
     context 'with search parameters' do
       let(:params) {{ :artist => artist }}
 
-      it 'passes search parameters to http client' do
+      it 'passes search parameters to the discogs api' do
         http_client.should_receive(:get).with(path, params).
           and_return(double(:response, :body => '{"results": []}'))
 
