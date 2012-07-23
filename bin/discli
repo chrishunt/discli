@@ -1,0 +1,14 @@
+#!/usr/bin/env ruby
+
+require 'discli'
+
+begin
+  params = Discli::ParamParser.new(ARGV).to_params
+rescue Discli::ParamParser::InvalidParamCount,
+       Discli::ParamParser::InvalidParam => e
+  puts "discli: #{e.message}\n\n"
+  puts Discli::ParamParser.usage
+  abort
+end
+
+puts Discli::Client.new.search(params).inspect
