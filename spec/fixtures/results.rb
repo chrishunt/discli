@@ -1,0 +1,50 @@
+[{
+  "thumb"        => nil,
+  "title"        => "Chris Hunt",
+  "uri"          => "/artist/Chris+Hunt+%282%29",
+  "resource_url" => "http://api.discogs.com/artists/1292565",
+  "type"         => "artist",
+  "id"           => 1292565
+},{
+  "style"        => [ "Dub", "Downtempo", "Ambient" ],
+  "thumb"        => "http://api.discogs.com/image/R-90-251421-1294306506.jpeg",
+  "format"       => [ "CD" ],
+  "country"      => "UK",
+  "title"        => "The Silent Pool",
+  "uri"          => "/Children-Of-Dub-The-Silent-Pool/release/251421",
+  "label"        => "Diversity Recordings",
+  "catno"        => "BACCYCD002",
+  "year"         => "1995",
+  "genre"        => [ "Electronic", "Funk" ],
+  "resource_url" => "http://api.discogs.com/releases/251421",
+  "type"         => "release",
+  "id"           => 251421
+},{
+  "style"        => [ "Country Rock" ],
+  "thumb"        => "http://api.discogs.com/image/R-90-2027755-1290898443.jpeg",
+  "format"       => [ "Vinyl" ],
+  "country"      => "UK",
+  "title"        => "Meal Ticket",
+  "uri"          => "/Meal-Ticket-Three-Times-A-Day/release/2027755",
+  "label"        => "Logo Records",
+  "catno"        => "INS3010",
+  "year"         => "1977",
+  "genre"        => [ "Rock" ],
+  "resource_url" => "http://api.discogs.com/releases/2027755",
+  "type"         => "release",
+  "id"           => 2027755
+},{
+  "style"        => [ "Soul", "Mod" ],
+  "thumb"        => "http://api.discogs.com/image/R-90-1359662-1268501779.jpeg",
+  "format"       => [ "CD", "Vinyl" ],
+  "country"      => "UK",
+  "title"        => "Makin' Time",
+  "uri"          => "/Makin-Time-Rhythm/release/1359662",
+  "label"        => "Big Beat Records",
+  "catno"        => "CDWIKD226",
+  "year"         => "2003",
+  "genre"        => [ "Funk / Soul", "Rock" ],
+  "resource_url" => "http://api.discogs.com/releases/1359662",
+  "type"         => "release",
+  "id"           => 1359662
+}]
