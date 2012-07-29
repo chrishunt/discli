@@ -11,4 +11,6 @@ rescue Discli::ParamParser::InvalidParamCount,
   abort
 end
 
-puts Discli::Client.new.search(params).inspect
+results = Discli::Client.new.search(params)
+
+puts Discli::ResultsDecorator.new(results)
